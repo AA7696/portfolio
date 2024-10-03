@@ -7,7 +7,7 @@ function Form() {
     const handelSubmit = async (formData: FormData): Promise<void> =>{
     
         try {
-          const response = await submitClient({
+           await submitClient({
             name: formData.get('name'),
             email: formData.get('email'),
             message: formData.get('message'),

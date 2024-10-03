@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import Navbar from '../components/Navbar'
 import bg from '../assets/images/bg-my.png'
 import Typewriter from 'typewriter-effect'; 
 import { DiMongodb } from "react-icons/di";

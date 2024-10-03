@@ -2,13 +2,7 @@
 import { dbConnect } from "@/libs/dbConnect";
 import Client from "@/models/Client";
 
-interface Data {
-    name: string;
-    email: string;
-    message: string
-
-}
-const submitClient = async (data:any): Promise<void> =>{
+const submitClient = async (data: { name: FormDataEntryValue | null; email: FormDataEntryValue | null; message: FormDataEntryValue | null; }): Promise<void> =>{
     try {
         await dbConnect()      
         await Client.create(data)

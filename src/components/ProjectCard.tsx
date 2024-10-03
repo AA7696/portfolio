@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
+import dynamic from 'next/dynamic'
 
 type Project = {
     name: string;
@@ -27,4 +28,5 @@ function ProjectCard({name,imgUrl,desc,projUrl}: Project) {
   )
 }
 
-export default ProjectCard
+export default dynamic (() => Promise.resolve(ProjectCard),{ssr:false})
+

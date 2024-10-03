@@ -32,12 +32,6 @@ const project = [
     }
 ]
 
-type Project =  {
-    name: string,
-    imgUrl: string,
-    desc: string,
-    projUrl: string
-}
 
 function page() {
   return (

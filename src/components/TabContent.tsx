@@ -7,18 +7,18 @@ interface TabContentProps {
 
 const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
   const skills = (
-    <div className=' w-full flex items-center justify-center'>
+    <div className="w-full flex items-center justify-center">
       <div className="flex w-[95%] flex-col lg:flex-row">
   <div className="card bg-base-300 rounded-box grid min-h-32 flex-grow p-8 gap-7 justify-start items-start">
-    <div className=' w-full flex justify-start items-start flex-col gap-5'>
+    <div className=" w-full flex justify-start items-start flex-col gap-5">
     <h2 className="text-lg font-bold">React Js</h2>
   <progress className="progress progress-error w-56" value="70" max="100"></progress>
     </div>
-    <div className=' w-full flex justify-start items-start flex-col gap-5'>
+    <div className=" w-full flex justify-start items-start flex-col gap-5">
     <h2 className="text-lg font-bold">Next Js</h2>
   <progress className="progress progress-error w-56" value="60" max="100"></progress>
     </div>
-    <div className=' w-full flex justify-start items-start flex-col gap-5'>
+    <div className=" w-full flex justify-start items-start flex-col gap-5">
     <h2 className="text-lg font-bold">React Native</h2>
   <progress className="progress progress-error w-56" value="70" max="100"></progress>
     </div>
