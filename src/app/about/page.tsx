@@ -1,15 +1,7 @@
 // Page.tsx
-'use client'
-import React, { useState } from 'react';
-import TabComponent from '../../components/TabComponent';
-import TabContent from '../../components/TabContent';
+import Tabs from '@/components/Tabs';
 
 function Page() {
-  const [activeTab, setActiveTab] = useState('skills');
-
-  const handleTabChange = (tab: string) => {
-    setActiveTab(tab);
-  };
 
   return (
     <div className="hero bg-[#212429] min-h-screen">
@@ -20,8 +12,7 @@ function Page() {
           Beyond tech, I enjoy public speaking and have experience managing events, blending leadership and communication skills with my technical expertise. I'm always eager to learn, grow, and stay ahead in the fast-evolving tech landscape.
         </p>
         <h1 className="text-xl md:text-5xl font-bold text-red-400 mt-8">MY RESUME</h1>
-        <TabComponent activeTab={activeTab} handleTabChange={handleTabChange} />
-        <TabContent activeTab={activeTab} />
+        <Tabs />
       </div>
     </div>
   );

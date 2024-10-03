@@ -26,8 +26,8 @@ function Navbar() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/services">Services</Link></li>
-          <li><Link href="/">Work</Link></li>
-          <li><Link href="/">Contact</Link></li>
+          <li><Link href="/projects">Projects</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
       </ul>
     </div>
     <a className="btn btn-ghost text-3xl text-red-500">PortFolio.</a>
@@ -37,8 +37,8 @@ function Navbar() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/services">Services</Link></li>
-          <li><Link href="/">Work</Link></li>
-          <li><Link href="/">Contact</Link></li>
+          <li><Link href="/projects">Projects</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
 
     </ul>
   </div>

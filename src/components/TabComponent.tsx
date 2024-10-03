@@ -1,4 +1,5 @@
 // TabComponent.tsx
+
 import React from 'react';
 
 interface TabProps {
