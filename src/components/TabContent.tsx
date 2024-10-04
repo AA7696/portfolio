@@ -9,7 +9,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
   const skills = (
     <div className="w-full flex items-center justify-center">
       <div className="flex w-[95%] flex-col lg:flex-row">
-  <div className="card bg-base-300 rounded-box grid min-h-32 flex-grow p-8 gap-7 justify-start items-start">
+  <div className="card  rounded-box grid min-h-32 flex-grow p-8 gap-7 justify-start items-start">
     <div className=" w-full flex justify-start items-start flex-col gap-5">
     <h2 className="text-lg font-bold">React Js</h2>
   <progress className="progress progress-error w-56" value="70" max="100"></progress>
@@ -29,7 +29,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
 
   </div>
   <div className="divider lg:divider-horizontal"></div>
-  <div className="card bg-base-300 rounded-box grid min-h-32 flex-grow p-8 gap-7 justify-start items-start">
+  <div className="card  rounded-box grid min-h-32 flex-grow p-8 gap-7 justify-start items-start">
   <div className=' w-full flex justify-start items-start flex-col gap-5'>
     <h2 className="text-lg font-bold">Node Js</h2>
   <progress className="progress progress-error w-56" value="70" max="100"></progress>
@@ -152,13 +152,13 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
 
   const achievements = (
     <div className='w-full flex flex-col md:flex-row   gap-7'>
-            <div className="card card-side bg-base-100 shadow-xl border-2 border-red-400">
+            <div className="card card-side shadow-xl border-2 border-red-400">
   <div className="card-body">
     <h2 className="card-title items-start">Selected As  PR Head</h2>
     <p className=' text-left'>Selected as the PR Head of the ACM DITU Student Chapter, demonstrating leadership skills and the ability to effectively manage communications and outreach initiatives</p>
   </div>
 </div>
-<div className="card card-side bg-base-100 shadow-xl border-2 border-red-400">
+<div className="card card-side  shadow-xl border-2 border-red-400">
   <div className="card-body">
     <h2 className="card-title items-start">Academic CGPA</h2>
     <p className=' text-left'>"Achieved a CGPA of 9 in college, reflecting a strong commitment to academic excellence and a deep understanding of core subjects in my field</p>
@@ -171,7 +171,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
 
   const experience = (
     <div className=' flex flex-col md:flex-row gap-6 w-full  '>
-      <div className="card card-side bg-base-100 shadow-xl border-2 border-red-400">
+      <div className="card card-side  shadow-xl border-2 border-red-400">
   <div className="card-body">
     <h2 className="card-title items-start">PR Head, DITU ACM Student Chapter</h2>
     <p className=' text-left'>As the PR Head of the DIT University ACM Student Chapter, I manage communications and public relations initiatives 
@@ -180,7 +180,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
        contributing to a dynamic learning environment.</p>
   </div>
 </div>
-<div className="card card-side bg-base-100 shadow-xl border-2 border-red-400">
+<div className="card card-side shadow-xl border-2 border-red-400">
   <div className="card-body">
     <h2 className="card-title text-left">Member Of Technical Team of Youthopia 2023</h2>
     <p className=' text-left'>As a member of the web development team for Yuthopia 2023, the technical and cultural fest 

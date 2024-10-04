@@ -28,21 +28,21 @@ function Form() {
       <label className="label">
         <span className="label-text">Name</span>
       </label>
-      <input type="text" placeholder="Name" className="input input-bordered" name='name' required />
+      <input type="text" placeholder="Name" className="input input-bordered bg-[#212429]" name='name' required />
     </div>
 
     <div className="form-control">
       <label className="label">
         <span className="label-text">Email</span>
       </label>
-      <input type="email" placeholder="Email" name='email' className="input input-bordered" required />
+      <input type="email" placeholder="Email" name='email' className="input input-bordered bg-[#212429]" required />
     </div>
     <div className="form-control">
       <label className="label">
         <span className="label-text">Message</span>
       </label>
       <textarea
-      className="textarea textarea-bordered h-24" placeholder="Your message" name='message' required
+      className="textarea textarea-bordered h-24 bg-[#212429]" placeholder="Your message" name='message' required
       rows={12}
 
       />
