@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="hero bg-[#212429] min-h-screen">
+    <div className="hero bg-[#212429] min-h-screen text-white">
     <div className="hero-content text-center">
       <div className="w-md">
         <h1 className="text-5xl font-bold mt-20 md:mt-5">What I Do</h1>

@@ -35,10 +35,10 @@ const project = [
 
 function page() {
   return (
-    <div className="hero bg-[#212429] min-h-screen w-full">
+    <div className="hero bg-[#212429] min-h-screen w-full text-white">
   <div className="hero-content text-center mt-20 md:mt-10 w-full">
     <div className="w-full md:p-12">
-      <h1 className=" text-3xl md:text-5xl font-bold md:mt-9">My Projects</h1>
+      <h1 className=" text-white text-3xl md:text-5xl font-bold md:mt-9">My Projects</h1>
       <div className="project mt-8 flex flex-col md:flex-row flex-wrap w-full justify-evenly p-8 gap-9">
         {project.map((item) => {
             return (

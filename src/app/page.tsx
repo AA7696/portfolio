@@ -25,7 +25,7 @@ function Home() {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center mt-40">
     <div className=" max-w-xl">
-      <h1 className="mb-3 text-6xl font-bold">I Am Aachman Agarwal</h1>
+      <h1 className="mb-3 text-6xl font-bold text-white font-mono">I Am Aachman Agarwal</h1>
       <div className=' text-2xl text-red-400'>
       <Typewriter
         options={{
