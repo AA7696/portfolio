@@ -12,7 +12,7 @@ import Form from '@/components/Form';
 function page() {
 
   return (
-    <div className="hero bg-base-200 min-h-screen w-full text-white">
+    <div className="hero min-h-screen w-full text-white bg-black">
   <div className="hero-content flex-col lg:flex-row w-[97%] h-full">
     <div className="card bg-[#212429]  w-full shrink-0 shadow-2xl flex-col md:flex-row min-h-full justify-center items-center">
         <div className=' w-full md:w-[50%] flex flex-col justify-center items-center gap-6 mt-20 md:mt-30'>

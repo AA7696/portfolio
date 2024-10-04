@@ -26,20 +26,20 @@ function Form() {
     <h1 className="text-3xl font-bold text-center">Get in Touch</h1>
   <div className="form-control">
       <label className="label">
-        <span className="label-text">Name</span>
+        <span className="label-text text-white">Name</span>
       </label>
       <input type="text" placeholder="Name" className="input input-bordered bg-[#212429]" name='name' required />
     </div>
 
     <div className="form-control">
       <label className="label">
-        <span className="label-text">Email</span>
+        <span className="label-text text-white">Email</span>
       </label>
       <input type="email" placeholder="Email" name='email' className="input input-bordered bg-[#212429]" required />
     </div>
     <div className="form-control">
       <label className="label">
-        <span className="label-text">Message</span>
+        <span className="label-text text-white">Message</span>
       </label>
       <textarea
       className="textarea textarea-bordered h-24 bg-[#212429]" placeholder="Your message" name='message' required
