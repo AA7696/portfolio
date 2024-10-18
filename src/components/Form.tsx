@@ -5,8 +5,19 @@ import React, { useRef } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function Form() {
+function SubmitButton() {
   const {pending} = useFormStatus()
+  return(
+    <button className="btn btn-error text-white" disabled={pending} >
+    {pending? 'submiting...': 'Submit' }
+  </button>
+
+
+  )
+  
+}
+
+function Form() {
     const formRef = useRef<HTMLFormElement>(null)
     const handelSubmit = async (formData: FormData): Promise<void> =>{
     
@@ -85,9 +96,7 @@ function Form() {
     </div>
 
     <div className="form-control mt-6">
-      <button className="btn btn-error text-white" disabled={pending} >
-        {pending? 'submiting...': 'Submit' }
-      </button>
+      <SubmitButton />
     </div>
   </form>
 
