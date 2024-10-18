@@ -18,7 +18,7 @@ function Form() {
           })
           formRef.current?.reset();
           toast('Submited', {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -31,7 +31,7 @@ function Form() {
         } catch (error) {
           console.error(error);
           toast('Something went wrong', {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -48,7 +48,7 @@ function Form() {
   return (
     <form ref={formRef} className="card-body w-full md:w-[50%] flex flex-col gap-4 mt-6" action={handelSubmit}>
     <ToastContainer
-    position="top-center"
+    position="bottom-center"
     autoClose={3000}
     hideProgressBar={false}
     newestOnTop={false}
