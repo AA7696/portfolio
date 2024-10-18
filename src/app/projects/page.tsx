@@ -26,7 +26,7 @@ const project = [
     {
         id: 4,
         name: 'Portfolio',
-        imgUrl: 'https://cdn.dribbble.com/users/2478573/screenshots/11199542/preview_02_4x.jpg',
+        imgUrl: 'https://studyadv.s3.amazonaws.com/production/blogs/images/000/000/635/original/maxresdefault.jpg',
         desc:'Created a modern and responsive portfolio website using Next.js, showcasing personal projects, skills, and achievements. ',
         projUrl: 'https://github.com/AA7696/portfolio'
     }
