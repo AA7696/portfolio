@@ -3,7 +3,7 @@ import { dbConnect } from "@/libs/dbConnect";
 import Client from "@/models/Client";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API)
+const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY)
 
 const submitClient = async (data: { name: FormDataEntryValue | null; email: FormDataEntryValue | null; message: FormDataEntryValue | null; }): Promise<void> =>{
 
