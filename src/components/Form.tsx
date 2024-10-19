@@ -1,6 +1,6 @@
 'use client'
 import submitClient from '@/utils/action';
-import { useFormState, useFormStatus } from 'react-dom';
+import {  useFormStatus } from 'react-dom';
 import React, { useRef } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -30,8 +30,8 @@ function Form() {
           formRef.current?.reset();
           toast('Submited', {
             position: "bottom-center",
-            autoClose: 3000,
-            hideProgressBar: false,
+            autoClose: 2000,
+            hideProgressBar: true,
             closeOnClick: true,
             pauseOnHover: true,
             draggable: true,
@@ -43,8 +43,8 @@ function Form() {
           console.error(error);
           toast('Something went wrong', {
             position: "bottom-center",
-            autoClose: 3000,
-            hideProgressBar: false,
+            autoClose: 2000,
+            hideProgressBar: true,
             closeOnClick: true,
             pauseOnHover: true,
             draggable: true,
@@ -60,8 +60,8 @@ function Form() {
     <form ref={formRef} className="card-body w-full md:w-[50%] flex flex-col gap-4 mt-6" action={handelSubmit}>
     <ToastContainer
     position="bottom-center"
-    autoClose={3000}
-    hideProgressBar={false}
+    autoClose={2000}
+    hideProgressBar={true}
     newestOnTop={false}
     closeOnClick
     rtl={false}

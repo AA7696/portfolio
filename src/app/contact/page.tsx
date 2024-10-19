@@ -23,7 +23,7 @@ function page() {
             
              /> 
             <div className='btn btn-error text-white' >
-                <a href='/assets/achman-resume.pdf' download >Download Resume</a>
+                <a href='/assets/achman.pdf' download >Download Resume</a>
             </div>
  <nav className="flex flex-row gap-4 md:place-self-center md:justify-self-end">
     <Link href='https://x.com/AgarwalAachman?t=i8hJtvPs14NqFd5We787OA&s=09'>
