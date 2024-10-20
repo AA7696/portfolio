@@ -21,6 +21,16 @@ const submitClient = async (data: { name: FormDataEntryValue | null; email: Form
                 <p><strong>Message:</strong> ${data.message}</p>
               `,
             });
+
+            await resend.emails.send({
+              from: 'agarwal7696@achman.in', 
+              to: `${data.email}`,                           
+              subject: 'Thank you for reaching out!',
+              html: `
+                <h1>Thank you, ${data.name}!</h1>
+                <p>We appreciate you reaching out to us. We will get back to you soon.</p>
+              `,
+            });
       
         
 
