@@ -31,9 +31,6 @@ A modern, responsive, and SEO-friendly portfolio website built with **Next.js** 
 
 ---
 
-## 📸 Screenshots
-_Add screenshots or a demo GIF here_  
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -42,3 +39,4 @@ _Add screenshots or a demo GIF here_
    ```bash
    git clone https://github.com/your-username/portfolio-nextjs.git
    cd portfolio-nextjs
+
